@@ -4,7 +4,7 @@ import numpy as np
 
 st.title('Transaction Analysis') 
 
-DATA_URL = ('/data/transactions.csv') 
+DATA_URL = ('data/transactions.csv') 
 
 @st.cache_data
 def load_data(nrows): 
