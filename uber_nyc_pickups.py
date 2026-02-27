@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
+import numpy as np 
 
 st.title('Uber pickups in NYC') 
 
@@ -28,8 +28,6 @@ data_load_state.text("Done! (using st.cache_data)")
 if st.checkbox('Show raw data'):
     st.subheader('Raw data')
     st.write(data)
-
-st.subheader('Number of pickups by hour')
 
 if st.checkbox('Show bar chart'):
     st.subheader('Number of pickups by hour')
